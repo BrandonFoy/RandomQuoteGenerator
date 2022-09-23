@@ -1,2 +1,2 @@
 # RandomQuoteGenerator
-**Generates a random Quote
+## Generates a random Quote
