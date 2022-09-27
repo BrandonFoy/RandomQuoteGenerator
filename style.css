@@ -31,18 +31,19 @@
     color: rgb(0, 0, 0);
   }
   .quote {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 40px;
     font-weight: bold;
   }
   .author {
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 10px;
     text-align: right;
     font-size: 25px;
     font-style: italic;
     font-family: cursive;
+    font-weight: 600;
   }
   hr {
     margin: 10px 0;
