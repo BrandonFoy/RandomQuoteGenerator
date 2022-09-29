@@ -1,6 +1,6 @@
 const text = document.getElementById("quote");
 const author = document.getElementById("author");
-const tweetButton = document.getElementById("tweet");
+
 const getNewQuote = async () => {
   //api for quotes
   var url = "https://type.fit/api/quotes";
@@ -21,8 +21,5 @@ const getNewQuote = async () => {
   //function to dynamically display the quote and the author
   text.innerHTML = quote;
   author.innerHTML = "~ " + auth;
-  //tweet the quote
-  tweetButton.href =
-    "https://twitter.com/intent/tweet?text=" + quote + " ~ " + auth;
 };
 getNewQuote();
