@@ -100,10 +100,10 @@ div {
 
 .font-black {
   font-weight: 700 !important;
-  font-size: large;
+  font-size: large !important;
 }
 
 .title-icon {
   font-weight: 900 !important;
-  font-size: larger;
+  font-size: larger !important;
 }
