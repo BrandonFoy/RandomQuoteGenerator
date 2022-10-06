@@ -1,42 +1,33 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
-    min-height: 100vh;
-    transition: 0.5s;
-    transition-timing-function: ease-in;
-    background-image: url(https://i.pinimg.com/originals/0b/77/41/0b7741818a850f750255a37e4933b9f4.jpg);
-    background-position: center;
-    background-repeat: none;;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .container {
-    display: flex;
+body{
+  min-height: 100vh;
+  transition: 0.5s;
+  transition-timing-function: ease-in;
+  background-image: url(https://i.pinimg.com/originals/0b/77/41/0b7741818a850f750255a37e4933b9f4.jpg);
+  background-position: center;
+  background-repeat: none;;
+}
+  .container-1 {
     flex-direction: column;
-    align-items: center;
     padding: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
     border-radius: 15px;
     width: 600px;
     background-color: rgba(209, 107, 12, 0.3);
-    margin: 10px;
+    margin: 0 auto;
+    margin-top: 100px;
   }
   .fa-quote-left,
   .fa-quote-right {
     font-size: 35px;
     color: rgb(0, 0, 0);
   }
-  .quote {
+.quote {
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 40px;
     font-weight: bold;
   }
-  .author {
+.author {
     color: rgb(255, 255, 255);
     margin: 10px;
     text-align: right;
@@ -73,6 +64,39 @@
       #d36e10d3
     );
   }
-  .container:hover {
+  .container-1:hover {
     box-shadow: 0 10px 10px rgb(253, 253, 253);
   }
+
+div {
+  display: flex;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(img/background.jpg);
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 75%;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar-toggler {
+  opacity: 0%;
+}
+
+
+
