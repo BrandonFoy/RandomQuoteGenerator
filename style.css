@@ -98,3 +98,12 @@ div {
   opacity: 0%;
 }
 
+.font-black {
+  font-weight: 700 !important;
+  font-size: large;
+}
+
+.title-icon {
+  font-weight: 900 !important;
+  font-size: larger;
+}
